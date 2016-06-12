@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="wsfev1_cliente_wsfev1_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://wswhomo.afip.gov.ar/wsfev1/service.asmx</Value>
+    </Setting>
+    <Setting Name="URL_WSFE_Produccion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://servicios1.afip.gov.ar/wsfev1/service.asmx</Value>
+    </Setting>
+    <Setting Name="URL_WSFE_Testing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://wswhomo.afip.gov.ar/wsfev1/service.asmx</Value>
+    </Setting>
+    <Setting Name="ModoProduccion" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RUTATICKETACCESO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\WSAA\</Value>
+    </Setting>
+    <Setting Name="RutaComprobantesGenerados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"C:\WSFE\Comprobantes\Generados\"</Value>
+    </Setting>
+    <Setting Name="RutaComprobantesConsultados" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"C:\WSFE\ComprobantesConsultados\"</Value>
+    </Setting>
+    <Setting Name="ModoDebug" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
